@@ -48,6 +48,8 @@ a {
 
 p {
     font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 32px;
 }
 
 .hero {
@@ -92,6 +94,7 @@ p {
 }
 
 .awesome h3 {
+    color: #ffffff;
     margin-bottom: 10px;
     text-align: center;
 }
