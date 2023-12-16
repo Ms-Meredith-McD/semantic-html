@@ -1,39 +1,36 @@
+/* Universal selector removing padding and margin from the edges of the page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Element selector setting a background color of white for the body of the page */
 body {
     background-color: #d9dcd6;
 }
-
+/* Element selector setting the sizing, font, and colors for the header containing the company name and nav */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Going in a level deeper than the header and defining the display and size for "Horiseon" */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* An attempt to make the "seo" part of "Horiseon" look like a different color, maybe it works on some browsers */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Setting up the style, size, spacing, and text for the navigation links in the header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
 }
 
 header nav ul li {
@@ -52,7 +49,7 @@ p {
     margin-bottom: 32px;
 }
 
-.hero {
+.meeting {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
